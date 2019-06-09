@@ -1,0 +1,177 @@
+/*Navigatie menu*/
+nav {
+  font-family: sans-serif;
+  width: 100%;
+  font-size: 1.1em
+}
+
+nav ul {
+  list-style-type: none;
+  position: sticky;
+  top: 0;
+  margin: 0;
+  padding: 2vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 1vh 1vh 1vh 2vh;
+  text-align: center;
+}
+
+/*tekst in header*/
+header {
+  font-family: serif;
+}
+
+header h1 {
+  padding-bottom: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+/*Afbeelding onder de h1 "Max Wieringa"*/
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  background: #f9f9f9;
+  padding: 3vh 5vh;
+}
+
+.parallax {
+  background-image: url('img/achtergrondhome.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.parallax.about {
+  background-image: url('img/schelpen.jpg');
+}
+
+.parallax.contact {
+  background-image: url('img/zonsondergang.jpg');
+}
+
+/*tekst boven main content*/
+main h2 {
+  text-align: center;
+}
+
+/*Links*/
+.contactinfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35em;
+}
+
+/*formulier*/
+form {
+  max-width: 70%;
+}
+
+input {
+  text-align: left;
+  border-radius: 4px;
+  display: block;
+}
+
+/*foto van mezelf in de over mij pagina*/
+.container2 {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.fotovanmij {
+  background: url('img/maks.jpg');
+  background-size: cover;
+  height: 45vh;
+}
+
+/*contact info*/
+main ul {
+  list-style-type: none;
+}
+
+/*content portfolio pagina*/
+.portalfoto img {
+  height: 20%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ucdvormgeving img {
+  height: 15%;
+  width: 49%;
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectpark img {
+  height: 20%;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*footer*/
+footer {
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin: 0;
+}
+
+footer h2 {
+  color: white;
+}
+
+p {
+  color: black;
+  padding: 3vh 15%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  text-align: left;
+}
+
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer p {
+  color: white;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+footer img {
+  padding-left: 20%;
+}
